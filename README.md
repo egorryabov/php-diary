@@ -44,7 +44,7 @@ heredoc syntax
 EOD;
 // Here the identifier is EOD. Below
 // EOT identifier
-$name = 'Vasya';
+$name = 'Poul';
 echo <<<EOT
 My name is "$name".
 EOT;
