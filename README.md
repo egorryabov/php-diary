@@ -31,7 +31,7 @@ echo 'index==$index< br >';
 
 Single quotes also disable Esc codes (see below). Single quotes improve code performance, so using them is preferable.
 
-Another way to define strings is to use heredoc syntax. In this case, the line must begin with the <<< character, followed by an identifier. The line ends with the same identifier. The closing identifier must begin in the first column of the row. Additionally, the identifier must follow the same naming conventions as all other tags in PHP: contain only alphanumeric characters and underscores, and not begin with a number or underscore.
+Another way to define strings is to use heredoc syntax. In this case, the line must begin with the `<<<` character, followed by an identifier. The line ends with the same identifier. The closing identifier must begin in the first column of the row. Additionally, the identifier must follow the same naming conventions as all other tags in PHP: contain only alphanumeric characters and underscores, and not begin with a number or underscore.
 
 Heredoc text behaves in the same way as a string in double quotes, without having them. This means that you don't need to escape quotes in heredoc, but you can still use the escape sequences listed above. Variables inside heredoc are also processed.
 
