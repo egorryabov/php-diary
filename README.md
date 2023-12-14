@@ -61,7 +61,7 @@ echo($text);
 ? >
 ```
 
-This shows the use of a variable. Variable names (as well as function names) are case sensitive. Variables begin with a `$` symbol (the first character), the second character must be a letter. Variables are visible throughout the file, even if it is declared and assigned in one section < ?php, and used in another section < ?php. Variables are of three types - numeric, string and logical. The type is determined implicitly when a variable is assigned a value. A variable appears at the moment of its assignment. To check whether a variable exists, there is the IsSet function, for example (execute this code 2 times, the second time uncomment the assignment to the $index variable):
+This shows the use of a variable. Variable names (as well as function names) are case sensitive. Variables begin with a `$` symbol (the first character), the second character must be a letter. Variables are visible throughout the file, even if it is declared and assigned in one section `< ?php`, and used in another section `< ?php`. Variables are of three types - numeric, string and logical. The type is determined implicitly when a variable is assigned a value. A variable appears at the moment of its assignment. To check whether a variable exists, there is the IsSet function, for example (execute this code 2 times, the second time uncomment the assignment to the $index variable):
 
 ```php
 < ?php
